@@ -1,0 +1,130 @@
+{
+	"id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
+	"spec_version": "2.0",
+	"objects": [{
+			"created": "2020-08-23T11:42:37.424Z",
+			"id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+			"identity_class": "system",
+			"modified": "2019-08-23T11:42:37.424Z",
+			"name": "carbonblack4",
+			"type": "identity"
+		},
+		{
+			"created": "2020-07-24T16:59:16.578Z",
+			"created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+			"first_observed": "2020-07-24T16:59:16.578Z",
+			"id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+			"last_observed": "2019-07-24T16:59:16.578Z",
+			"modified": "2020-07-24T16:59:16.578Z",
+			"number_observed": 1,
+			"objects": {
+				"0": {
+					"hashes": {
+						"SHA-256": "35e1f022861474407246f0c66218a83019381e8745e4c6b294cf150f401c16dc"
+					},
+					"name": "e-vote_form_78211.doc",
+					"type": "file"
+				},
+				"1": {
+					"binary_ref": "0",
+					"command_line": "C:\\File\\System\\svc.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV",
+					"created": "2020-07-24T16:59:16.578Z",
+					"creator_user_ref": "8",
+					"name": "svc.exe",
+					"opened_connection_refs": [
+						"6"
+					],
+					"parent_ref": "3",
+					"pid": 7284,
+					"type": "process"
+				},
+				"2": {
+					"binary_ref": "2",
+					"name": "VBA/Agent.KJMLBSB!tr",
+					"pid": 800,
+					"type": "process"
+				},
+				"3": {
+					"type": "domain-name",
+					"value": "125-65-202-82.hicoria.com"
+				},
+				"4": {
+					"type": "ipv4-addr",
+					"value": "192.168.1.108"
+				},
+				"5": {
+					"dst_ref": "82.202.65.178",
+					"src_ref": "192.168.1.108",
+					"type": "network-traffic"
+				},
+				"6": {
+					"type": "url",
+					"value": "shmbidgp.monster"
+				},
+				"7": {
+					"type": "user-account",
+					"user_id": "ADMIN"
+				}
+			},
+			"type": "observed-data"
+		},
+		{
+			"created": "2020-07-30T13:05:54.972Z",
+			"created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+			"first_observed": "2020-07-30T13:05:54.972Z",
+			"id": "observed-data--e4f1d90e-0f50-4b60-ba20-89ac3a3e9f58",
+			"last_observed": "2020-07-30T13:05:54.972Z",
+			"modified": "2020-07-30T13:05:54.972Z",
+			"number_observed": 1,
+			"objects": {
+				"0": {
+					"hashes": {
+						"SHA-256": "c269cbffec913fe22458ebaf05a0b70fdd339f39123c9809c4997bb40107a73f"
+					},
+					"name": "colHanja.exe",
+					"type": "file"
+				},
+				"1": {
+					"type": "artifact",
+					"payload_bin": "localhost:accountId:911534260404,accessKeyId:ASIA5IO5NAC2OIBXQ4NY,userName:ADMIN,sessionContext:{attributes:{mfaAuthenticated:false,creationDate:2020-09-28T13:40:25Z}},invokedBy:ADMIN},eventTime:2020-06-09T21:08:04Z,eventSource:VirtualProtectEX,eventName:GetObject,awsRegion:us-west-2,sourceIPAddress:67.229.97.229,userAgent:[aws-cli/1.15.57 Python/2.7.14+ Linux/4.15.0-kali2-amd64 botocore/1.10.56],4Q2020EarningAnnouncement.pdf,EmployeeSalaries.pdf,EmployeeCCinfo.pdf"
+				},
+				"2": {
+					"hashes": {
+						"MD5": "4F2139E3961202B1DFEAE288AED5CB8F"
+					},
+					"name": "InternalFax.doc",
+					"type": "file"
+				},
+				"3": {
+					"binary_ref": "2",
+					"name": "Sinj",
+					"pid": 564,
+					"type": "process"
+				},
+				"4": {
+					"type": "domain-name",
+					"value": "test"
+				},
+				"5": {
+					"type": "ipv4-addr",
+					"value": "172.16.0.104"
+				},
+				"6": {
+					"dst_ref": "5",
+					"src_ref": "7",
+					"type": "network-traffic"
+				},
+				"7": {
+					"type": "ipv4-addr",
+					"value": "192.168.0.5"
+				},
+				"8": {
+					"type": "user-account",
+					"user_id": "JaneSmith(CDO)"
+				}
+			},
+			"type": "observed-data"
+		}
+	],
+	"type": "bundle"
+}
